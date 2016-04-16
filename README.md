@@ -1,5 +1,5 @@
 # Omega-Web-App
-- A web app to control the Omega board gpio pins and relays
+A web app to control the Omega board gpio pins and relays
 
 Dependencies:
 -   python-light, python-email, python-codecs, python-logging, python-openssl.
