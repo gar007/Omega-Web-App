@@ -1,0 +1,36 @@
+Installation instructions for Omega web app dependencies
+
+The following need to be installed:
+1. python-light
+2. python-emil
+3. python-codecs
+4. python-logging
+5. python-openssl
+   -all the above are easily installed via opkg
+6. bottle.py available from pypi. search for bottle on pypi.python.org
+   bottle is a single program called bottle.py. Once python is installed there
+   will be a file on the omega for python called usr/lib/python2.7. You can install
+   bottle.py into the folder usr/lib/python2.7/site-packages
+7. omega-gpio.py available from onion.io. Install in the the same folder 
+   usr/lib/python2.7/site-packages
+8. Install omegaExpansion from onion.io. This is done via opkg.
+
+This completes the dependencies installation. The memory used is less than 60%.
+
+Installing the Omega web app program
+
+1. gpio.py is the main program. You can install where you want but you will
+   need to change the links in the program if you change them. It is currently
+   in the folder /home/bottle and protected from erasure by an entry in 
+   etc/sysupgrade.conf( /home/ )
+2. gpio.tpl is the html file. this needs to be in the same folder /home/bottle
+3. login.tpl is the login html file and needs to also be in the same folder
+4. The static file folder is placed in /home/bottle and becomes
+   /home/bottle/static
+
+Running Omega web app
+
+cd to the correct directory 'cd /home/bottle'
+enter 'python gpio.py' on the cmd line
+wait 10-25 secs and you will see the output of bottle announce it is running
+you can exit the bottle web server by Hit Ctrl-C to quit.
