@@ -1,0 +1,85 @@
+input:focus {
+    outline:none;
+}
+
+body {
+	background-color: #333333;
+}
+
+.topbanner {
+	margin-top: 5px
+}
+
+.buttonsLites {
+    width: 800px;
+
+}
+
+.buttons {
+    width: 380px;
+    float: left;
+
+}
+
+.login {
+	color: white; 
+	font-size: 20px;
+}
+
+#pwd {
+	font-size: 20px;
+	color: black;
+}
+
+#btn0 {
+	position: fixed;
+	top: 200px;
+	left: 100px;
+}
+
+#btn1 {
+	position: fixed;
+	top: 330px;
+	left: 100px;
+}
+
+#btn2 {
+	position: fixed;
+	top: 460px;
+	left: 100px;
+}
+
+#btn3 {
+	position: fixed;
+	top: 590px;
+	left: 100px;
+}
+
+.lites {
+    width: 380px;
+    float: right;
+
+}
+#lite0 {
+	position: fixed;
+	top: 205px;
+	left: 300px;
+}
+
+#lite1 {
+	position: fixed;
+	top: 335px;
+	left: 300px;
+}
+
+#lite2 {
+	position: fixed;
+	top: 465px;
+	left: 300px;
+}
+
+#fan {
+	position: fixed;
+	top: 575px;
+	left: 300px;
+}
